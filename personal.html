@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Авторизация</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220831144252">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__main">
+					<a href="../index.html" class="header__logo">red<span class="blue">rock</span></a>
+					<div class="header__buttons">
+						<a href="https://clck.ru/waniG" target="_blank" class="header__telegram">telegram</a>
+						<a href="../personal.html" class="header__personal">Личный кабинет</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="register">
+				<div class="register__container">
+					<div class="register__main">
+						<div class="register__block">
+							<div class="register__title subtitle">Авторизация</div>
+							<form action="#" class="register__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите логин" class="register__input">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите ключ авторизации (доступен после покупки)" class="register__input">
+								<button type="submit" class="register__button">войти</button>
+								<div class="register__questions">Если после оплаты у Вас возникли вопросы, то обращайтесь в <a href="" class="link">telegram</a></div>
+							</form>
+						</div>
+						<div class="register__license">У тебя все еще нет лицензии? <a href="" data-popup="#buy" class="linear">Приобрести</a></div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__main">
+					<a href="https://clck.ru/waniG" target="_blank" class="footer__telegram">telegram</a>
+					<div class="footer__payment">
+						<div class="footer__icon">
+							<picture><source srcset="img/mastercard.webp" type="image/webp"><img src="img/mastercard.png" alt="Мастеркард" class="footer__image"></picture>
+						</div>
+						<div class="footer__icon">
+							<picture><source srcset="img/visa.webp" type="image/webp"><img src="img/visa.png" alt="Виза" class="footer__image"></picture>
+						</div>
+						<div class="footer__icon">
+							<picture><source srcset="img/dss.webp" type="image/webp"><img src="img/dss.png" alt="ДСС" class="footer__image"></picture>
+						</div>
+					</div>
+					<div class="footer__copyright">© RedRock 2022. All rights reserved. Diagorou 4, Kermia Building, 6th floor, Nicosia, Cyprus. Reg.</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div id="buy" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<picture><source srcset="img/close.webp" type="image/webp"><img src="img/close.png" alt="Крест" class="popup__image"></picture>
+				</button>
+				<div class="popup__text">
+					<div class="popup__title">Введите свой E-Mail</div>
+					<form action="#" class="register__form">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите свою почту" class="register__input">
+						<button type="submit" class="register__button">продолжить</button>
+						<div class="register__questions">Если после оплаты у Вас возникли вопросы, то обращайтесь в <a target="_blank" href="https://clck.ru/waniG" class="link">telegram</a></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220831144252"></script>
+</body>
+
+</html>
